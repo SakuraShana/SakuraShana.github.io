@@ -1,1 +1,24 @@
-theme: jekyll-theme-time-machine
+title: "SakuraShana's Blog"
+description: "Have fun"
+url: 
+baseurl: ""
+author: "SakuraShana"
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
+  - Gemfile
+  - Gemfile.lock
+  - jekyll-theme-mdui.gemspec
+  - LICENSE.txt
+  - README.md
+  - vendor
+  - docs
