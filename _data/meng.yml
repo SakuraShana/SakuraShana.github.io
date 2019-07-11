@@ -1,7 +1,7 @@
 title:  # Meng title
   switch: true # Meng title switch
-  visible: "(OvO)" # State is visible text
-  hidden:  "口口口" # State is hidden text
+  visible: "Rua！" # State is visible text
+  hidden:  "Rua！" # State is hidden text
   with_default_title: true # with default title
   reset_time: 1000 # If state is visible , reset default title times(ms)
 
@@ -15,17 +15,17 @@ console: # Meng console info
   theme_info: true # output theme info
   text: "Copyright © 2019 Lostation" # text
   color: "#fff" # text color
-  background: "#448aff" # background color
+  background: "#000000" # background color
 
 header: # Meng header color + theme-color
   switch: true
 
 background: # Meng background
   switch: true
-  background_img: "https://i.loli.net/2019/07/11/5d265562f327b98350.jpg"
+  background_img: 
   transparent_header: true
   transparent_footer: true
-  text_color: '#00CCFF'
+  text_color: '#DC143C'
 
 card: # Meng card
   switch: true
